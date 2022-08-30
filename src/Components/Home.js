@@ -3,7 +3,7 @@ import pro from './dp.jpg';
 
 function Home() {
   return (
-    <div className='margin-item'>
+    <div className='margin-items'>
     <div className='title'>HOME</div><hr/>
     <div className='home-flex'>
     <div>

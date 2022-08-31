@@ -18,7 +18,7 @@ function Contact() {
   
   const handleSubmit=()=>{
     axios
-    .post("https://moviesam.herokuapp.com/movies",JSON.stringify(data),
+    .post("https://saurabhtheater.herokuapp.com/register",JSON.stringify(data),
     {
       headers:{
         "Content-type": "application/json"

@@ -1,0 +1,32 @@
+.li{
+    list-style-type: none;
+    color:white;
+    font-size: large;
+    margin-top: 20px;
+    padding: 15px;
+    text-align: center;
+    font-weight: 500;
+    transition:500ms;
+    display: flex;
+    flex-direction: column;
+}
+.li:hover{
+    cursor: pointer;
+    color: black;
+    background-color: white;
+    border-radius: 35px;
+    transition-delay: 100ms;
+    padding-right: 30px;
+}
+.menu-link{
+    width: 200px;
+    background-color: black;
+    height: 100vh;
+    border-left: 2px solid  rgb(139, 139, 139);
+}
+.menu-link-1{
+    padding-top: 140px;
+}
+.sidebar-main{
+    transition:1000ms;
+}

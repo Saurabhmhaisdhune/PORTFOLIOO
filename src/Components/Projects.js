@@ -1,159 +1,51 @@
-import React from 'react'
-import Card from '@mui/material/Card';
-import CardContent from '@mui/material/CardContent';
-import CardMedia from '@mui/material/CardMedia';
-import Typography from '@mui/material/Typography';
+import React from "react";
+import "./Project.css";
+import { SiGithub } from "react-icons/si";
+import { FaExternalLinkAlt } from "react-icons/fa";
 
 function Projects() {
   return (
-    <div className='margin-item'>
-    <div className='title'>PROJECT</div><hr/>
-    <div id='flexx'>
-    <div>
-    <Card sx={{ maxWidth: 350 }}>
-      <CardMedia
-        component="img"
-        height="350"
-        image= 'https://149695847.v2.pressablecdn.com/wp-content/uploads/2019/06/chris-ried-512801-unsplash.jpg'
-        alt="bahubali"
-      />
-      <CardContent>
-        <Typography gutterBottom variant="h5" component="div">
-        Basic CRUD Operation
-        </Typography>
-        <Typography variant="body2" color="text.secondary">
-        Simple create read update and delete operation were carried out using mockapi.
-        </Typography>
-        <a href='https://fascinating-cendol-e1a5d8.netlify.app/' className='project-link'>Link</a>
-      </CardContent>
-    </Card>
-    </div>
-
-    <div>
-    <Card sx={{ maxWidth: 350 }}>
-      <CardMedia
-        component="img"
-        height="350"
-        image= 'https://149695847.v2.pressablecdn.com/wp-content/uploads/2019/06/chris-ried-512801-unsplash.jpg'
-        alt="bahubali"
-      />
-      <CardContent>
-        <Typography gutterBottom variant="h5" component="div">
-        Student Teacher Portal
-        </Typography>
-        <Typography variant="body2" color="text.secondary">
-        Simple create read update and delete operation were carried out using useContext on student and teacher list
-        </Typography>
-        <a href='https://jade-pegasus-c8be4a.netlify.app' className='project-link'>Link</a>
-      </CardContent>
-    </Card>
-    </div>
-
-    <div>
-    <Card sx={{ maxWidth: 350 }}>
-      <CardMedia
-        component="img"
-        height="350"
-        image= 'https://149695847.v2.pressablecdn.com/wp-content/uploads/2019/06/chris-ried-512801-unsplash.jpg'
-        alt="bahubali"
-      />
-      <CardContent>
-        <Typography gutterBottom variant="h5" component="div">
-        Shopping website
-        </Typography>
-        <Typography variant="body2" color="text.secondary">
-        Practice of event like onclick, after clicking on add to card shopping count is incresed as well as button name is changed to remove from cart.
-        </Typography>
-        <a href='https://glittery-moonbeam-950ac6.netlify.app' className='project-link'>Link</a>
-      </CardContent>
-    </Card>
-    </div>
-
-    <div>
-    <Card sx={{ maxWidth: 350 }}>
-      <CardMedia
-        component="img"
-        height="350"
-        image= 'https://149695847.v2.pressablecdn.com/wp-content/uploads/2019/06/chris-ried-512801-unsplash.jpg'
-        alt="bahubali"
-      />
-      <CardContent>
-        <Typography gutterBottom variant="h5" component="div">
-        Nationality
-        </Typography>
-        <Typography variant="body2" color="text.secondary">
-        Practice of fetching data from a API to check the nationality of any name.
-        </Typography>
-        <a href='https://silver-mousse-9b6578.netlify.app/' className='project-link'>Link</a>
-      </CardContent>
-    </Card>
-    </div>
-
-    <div>
-    <Card sx={{ maxWidth: 350 }}>
-      <CardMedia
-        component="img"
-        height="350"
-        image= 'https://149695847.v2.pressablecdn.com/wp-content/uploads/2019/06/chris-ried-512801-unsplash.jpg'
-        alt="bahubali"
-      />
-      <CardContent>
-        <Typography gutterBottom variant="h5" component="div">
-        Book my show
-        </Typography>
-        <Typography variant="body2" color="text.secondary">
-        booking app for movie ticket.
-        </Typography>
-        <a href='https://heroic-torrone-8e28aa.netlify.app/' className='project-link'>Link</a>
-      </CardContent>
-    </Card>
-    </div>
-
-    <div>
-    <Card sx={{ maxWidth: 350 }}>
-      <CardMedia
-        component="img"
-        height="350"
-        image= 'https://149695847.v2.pressablecdn.com/wp-content/uploads/2019/06/chris-ried-512801-unsplash.jpg'
-        alt="bahubali"
-      />
-      <CardContent>
-        <Typography gutterBottom variant="h5" component="div">
-        Calculator
-        </Typography>
-        <Typography variant="body2" color="text.secondary">
-        A simple calculator to perform addition, substraction, division, multiplication.
-        </Typography>
-        <a href='https://famous-sunburst-2aa517.netlify.app' className='project-link'>Link</a>
-      </CardContent>
-    </Card>
-    </div>
-
-    <div>
-    <Card sx={{ maxWidth: 350 }}>
-      <CardMedia
-        component="img"
-        height="350"
-        image= 'https://149695847.v2.pressablecdn.com/wp-content/uploads/2019/06/chris-ried-512801-unsplash.jpg'
-        alt="bahubali"
-      />
-      <CardContent>
-        <Typography gutterBottom variant="h5" component="div">
-        Weather
-        </Typography>
-        <Typography variant="body2" color="text.secondary">
-        weather app where we get all climate condition of given country or state.
-        </Typography>
-        <a href='https://vermillion-tanuki-c20a62.netlify.app/' className='project-link'>Link</a>
-      </CardContent>
-    </Card>
-    </div>
-
-
-
-    </div>
+    <div className="projects-margin-item" id="projects">
+      <div className="title">PROJECT</div>
+      <hr className="hr" />
+      <div className="flexx">
+        <div className="cards">
+          <img
+            src="https://i.pcmag.com/imagery/articles/025Oaztt0ita5uBZZnF7f6p-1..v1627072521.png"
+            className="project-dp"
+            alt="gmail-clone"
+          />
+          <div className="project-all">
+            <label className="project-title">Gmail clone</label>
+            <br />
+            <label className="project-flex">
+              <a target="_blank" href="https://github.com/Saurabhmhaisdhune/Gmail_clone" className="project-links">
+                Github FE <SiGithub />
+              </a>
+              <a target="_blank" href="https://incandescent-tiramisu-9886d5.netlify.app" className="project-links">
+                View site <FaExternalLinkAlt />
+              </a>
+              <a target="_blank" href="https://github.com/Saurabhmhaisdhune/Gmail-clone-database" className="project-links">
+                Github BE <SiGithub />
+              </a>
+            </label>
+            <p className="project-info">
+              This is Fullstack MERN website made it as a Netflix.
+              <br />
+              This application is used to watch Movies and Series.
+            </p>
+            <br />
+            <label className="project-tech">
+              <span className="project-tech1">TECH USED:</span>
+              <span className="project-tech2">
+                &nbsp;React, Node, Express, MongoDB.
+              </span>
+            </label>
+          </div>
+        </div>
       </div>
-  )
+    </div>
+  );
 }
 
-export default Projects
+export default Projects;

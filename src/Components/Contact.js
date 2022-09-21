@@ -1,6 +1,10 @@
 import React, { useState } from 'react'
-import { FaGithub,FaLinkedin ,FaInstagram,FaStackOverflow,FaTwitter } from 'react-icons/fa';
+import { FaGithub,FaLinkedin ,FaInstagram,FaTwitter } from 'react-icons/fa';
 import axios from 'axios';
+import './Contact.css';
+import {CgMail} from 'react-icons/cg'
+import {GoLocation} from 'react-icons/go'
+import {IoCallOutline} from 'react-icons/io5'
 
 let initialValue={
   name:"",
@@ -27,52 +31,53 @@ function Contact() {
   };
 
   return (
-    <div className='margin-item'>
-    <div className='title'>CONTACT</div><hr/>
+    <div className='contact-margin-item' id='contact'>
+    <div className='title'>CONTACT</div>
+    <hr className='hr'/>
     <div className='contact-flex'>
       <div >
-
-      <label>Name:</label><br/>
 
       <input 
       type='text'
       onChange={handleChange}
       name='name'
       className='contact-input'
-      placeholder='Enter full name'/><br/>
-
-      <label>Email:</label><br/>
+      placeholder='Name'/><br/>
 
       <input 
       type='email'
       onChange={handleChange}
       name='email'
       className='contact-input'
-      placeholder='Enter valid email'/><br/>
+      placeholder='Email'/><br/>
 
-      <label>Message:</label><br/>
-
-      <input 
+      <textarea 
       type='text'
       onChange={handleChange}
       name='message'
       className='contact-inputs'
-      placeholder='Enter message'/><br/>
+      placeholder='Enter any message for me'/><br/>
 
-      <button onClick={handleSubmit} type='button' className='button'>Submit</button>
+      <button onClick={handleSubmit} type='button' className='contact-button'>Send</button>
       </div>
 
-      <div className='contact-nips'>
-        <h3 className='contact-list'>Email: <span className='contact-name-id'>saurabhmhaisdhune1@gmail.com</span></h3><br/>
-        <h3 className='contact-list'>Address: <span className='contact-name-id'>Nashik, Maharashtra, India.</span></h3><br/>
-        <h3 className='contact-list'>Phone Number: <span className='contact-name-id'>8956293676</span></h3><br/>
-        <h3 className='contact-list'>Social Media: 
-        <a href='https://github.com/Saurabhmhaisdhune'><FaGithub/></a>
-        <a href='https://www.linkedin.com/in/mlsaurabh/'><FaLinkedin/></a>
-        <a href='https://www.instagram.com/stubborn.sm/'><FaInstagram/></a>
-        <a href='https://stackoverflow.com/users/19783086/saurabh-mhaisdhune'><FaStackOverflow/></a>
-        <a href='https://twitter.com/SaurabhMhaisdh2'><FaTwitter/></a>
-        </h3><br/>
+      <div className='contact-tips'>
+        <label className='contact-talk'>Let's talk</label><br/>
+        <div className='contact-list-main'>
+        <label className='contact-list'>I am open to any Full Stack job opportunities.</label><br/>
+        <a className='contact-list-all' href="mailto:saurabhmhaisdhune1@gmail.com"><CgMail className='contact-icons'/><span className='email'>saurabhmhaisdhune1@gmail.com</span></a><br/>
+        <a target="_blank" className='contact-list-all' href="https://www.google.com/maps/place/Mumbai,+Maharashtra/@19.2506916,72.8716992,10.75z/data=!4m5!3m4!1s0x3be7c6306644edc1:0x5da4ed8f8d648c69!8m2!3d19.0759837!4d72.8776559" ><GoLocation className='contact-icons'/>Mumbai, India.</a><br/>
+        <a className='contact-list-all' href="tel:8956293676"><IoCallOutline className='contact-icons'/>+91-8956293676</a><br/>
+        </div>
+        <div className='social-media'>
+        <label className='contact-list-connect'>Connect me on</label><br/>
+        <div className='social-icon-main'>
+        <a target="_blank" href='https://github.com/Saurabhmhaisdhune' className='social-icon'><FaGithub/><span className='tooltip'>Github</span></a>
+        <a target="_blank" href='https://www.linkedin.com/in/mlsaurabh/' className='social-icon'><FaLinkedin/><span className='tooltip'>Linkedin</span></a>
+        <a target="_blank" href='https://www.instagram.com/stubborn.sm/' className='social-icon'><FaInstagram/><span className='tooltip'>Instagram</span></a>
+        <a target="_blank" href='https://twitter.com/SaurabhMhaisdh2' className='social-icon'><FaTwitter/><span className='tooltip'>Twitter</span></a>
+        </div>
+        </div>
       </div>
     </div>
     </div>

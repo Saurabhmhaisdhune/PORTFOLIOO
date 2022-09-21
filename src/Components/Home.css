@@ -1,0 +1,115 @@
+.home-image{
+    height: 400px;
+    border-radius: 160px;
+    position: absolute;
+    transition: 900ms;
+    right: 280px;
+    border: 15px solid #41c9ff;
+}
+@media(max-width:1400px){
+    .home-image{
+        right: 220px;
+        height: 250px;
+    }
+}
+@media(max-width:1300px){
+    .home-image{
+       visibility: hidden;
+    }
+}
+@media(max-width:1700px){
+    .home-image{
+        right: 220px;
+        height: 300px;
+    }
+}
+@media(max-Width:1000px){
+    .home-flex{
+        margin-left: -110px;
+    }
+}
+.home-margin-items{
+    height: 75vh;
+    display: flex;
+    margin-left: 140px;
+    margin-top: 270px;
+}
+.home-image:hover{
+   height: 280px;
+   border-radius: 10px;
+}
+.home-flex{
+    display: flex;
+}
+.name-tag{
+    color: #41c9ff;
+    font-family: Raleway,sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+}
+.highlight{
+    color: rgb(255, 255, 255);
+    font-family: Poppins,sans-serif;
+    font-size: 90px;
+    font-weight: 700;
+}
+.typewriter{
+    font-size: xx-large;
+}
+.cv{
+    width: 150px;
+    height: 40px;
+    color: #41c9ff;
+    border-color: aliceblue;
+    font-family: cursive;
+    font-size: medium;
+    transition:1000ms;
+    background-color: rgb(0, 0, 0);
+    border:1px solid white;
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 10px;
+    position: relative;
+    top: 25px;
+}
+.cv:hover{
+    cursor: pointer;
+    background-color: rgb(80, 80, 80);
+    color:rgb(255, 255, 255);
+    margin-top: 20px;
+    height: 45px;
+    width: 170px;
+    border-radius: 10px;
+}
+.BiShow{
+    padding-right: 8px;
+}
+.intro{
+    font-size: medium;
+}
+.linkedin-icon,.github-icon{
+    text-decoration: none;
+    color:white;
+    font-size: medium;
+    font-weight: 300;
+    margin-top: 50px;  
+}
+.linkedin-icon:hover{
+    cursor: pointer;
+    margin-top: 95px;
+}
+.github-icon{
+    margin-left: 30px;
+}
+.SiLinkedin,.SiGithub{
+    color: #41c9ff;
+    padding-right: 5px;
+    font-size: x-large;
+}
+.icons{
+    margin-top: 100px;
+    transition: 500ms;
+}
+.intro{
+    margin-bottom: 20px;
+}

@@ -1,0 +1,68 @@
+.about-margin-item{
+    height: auto;
+    margin: 100px;
+    padding: 50px;
+}
+hr{
+    width: 12%;
+    margin-bottom: 50px;
+}
+hr.hr{
+    border: 1px solid gold;
+    border-radius: 5px;
+}
+.title{
+    text-align: center;
+    font-size:xx-large;
+    color: #41c9ff;
+    font-family: Poppins;
+}
+.about-para{
+    text-align: center;
+    font-size: small;
+    font-size: 18px;
+    position: relative;
+    top: 20px;
+}
+.about-lets{
+    font-family: Poppins,sans-serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+    overflow: hidden;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+}
+.about-full{
+    font-size: 27px;
+    color: #41c9ff;
+    font-weight: 400;
+    position: relative;
+    top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.AiOutlineForward{
+    color: #41c9ff;  
+    font-size: larger;
+}
+.information{
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    width: 550px;
+    padding: 15px;
+    border-radius: 10px;
+}
+.about-title{
+    font-weight: 600;
+}
+.about-flex-item{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 60px;
+}

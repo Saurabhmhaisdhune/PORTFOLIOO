@@ -1,0 +1,48 @@
+.main-nav{
+    display: flex;
+    align-items: center;
+}
+.sidebar-btn{
+    font-size: 30px;
+    position: absolute;
+    right: 70px;
+    padding: 15px;
+    transition: 100ms;
+}
+.name{
+    font-size: 40px;
+    padding-left: 50px;
+    word-spacing: 7px;
+    display: flex;
+    justify-content: baseline;
+    color: #41c9ff;
+}
+@media(max-Width:640px){
+    .name{
+        font-size: 25px;
+        padding-left: 10px;
+    }
+    .sidebar-btn{
+        font-size: 25px;
+        position: absolute;
+        right: 50px;
+    }
+}
+.navbar{
+    background-color:black;
+    color: rgb(255, 255, 255);
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    border-bottom: 2px solid rgb(139, 139, 139);
+}
+.sidebar-btn:hover{
+    cursor: pointer;
+    color: white;
+    background-color: rgb(64, 64, 64);
+    border-radius: 20px;
+    font-size: 34px;
+}
+.CgCodeSlash{
+    padding-right: 6px;
+}

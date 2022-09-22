@@ -30,9 +30,9 @@ function Projects() {
               </a>
             </label>
             <p className="project-info">
-              This is Fullstack MERN website made it as a Netflix.
+              This is Fullstack MERN website is used as Gmail.
               <br />
-              This application is used to watch Movies and Series.
+              This application is used to send and recive Mails.
             </p>
             <br />
             <label className="project-tech">

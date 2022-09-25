@@ -23,9 +23,8 @@ body{
   top: 85px;
   transition: all 1s ease;
 }
-@media(max-Width:430px){
-  body{
-     display: flex;
-     justify-content: center;
+/* @media(max-width:430px){
+  .sidebar{
+
   }
-}
+} */

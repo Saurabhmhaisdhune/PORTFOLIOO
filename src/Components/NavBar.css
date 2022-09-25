@@ -28,7 +28,7 @@
         right: 50px;
     }
 }
-@media(max-Width:430px){
+@media(max-width:430px){
     .name{
         font-size: 22px;
         padding-left: 10px;
@@ -36,7 +36,7 @@
     .sidebar-btn{
         font-size: 25px;
         position: relative;
-        left: 15px;
+        left: 150px;
         top: 4px;
     }
 }

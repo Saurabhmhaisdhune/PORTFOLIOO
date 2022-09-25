@@ -16,7 +16,7 @@
     top: -45px;
 }
 .social-icon-main{
-    margin-top: 10px;
+    margin-left: 15px;
 }
 .contact-list-connect{
     font-family: Poppins;
@@ -24,8 +24,11 @@
     font-size: 20px;
     line-height: 1.4;
     word-spacing: 2px;
-    position: relative;
-    left: 100px;
+}
+.social-media{
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
 }
 .contact-list-all{
     font-family: Poppins;
@@ -140,4 +143,7 @@ textarea:focus{
 .contact-list-all:hover{
     cursor: pointer;
     background-color:rgb(48, 48, 48);
+}
+.social-icon:hover{
+    color: white;
 }

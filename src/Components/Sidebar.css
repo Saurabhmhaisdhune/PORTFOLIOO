@@ -24,6 +24,12 @@
     height: 100vh;
     border-left: 2px solid  rgb(139, 139, 139);
 }
+@media(max-width:430px){
+    .menu-link{
+        height: 100%;
+        margin-top: -10px;
+    }
+}
 .menu-link-1{
     padding-top: 140px;
 }

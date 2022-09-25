@@ -22,7 +22,7 @@ function About() {
         problem identification are also skills that i have and will continue to
         contribute to my overall success as a developer.
       </p>
-      <div className="about-flex-item">
+      {/* <div className="about-flex-item">
         <label className="information">
           <AiOutlineForward className="AiOutlineForward" />
           <span className="about-title">&nbsp;Degree:</span>&nbsp;Engineering.
@@ -46,7 +46,7 @@ function About() {
           <AiOutlineForward className="AiOutlineForward" />
           <span className="about-title">&nbsp;Nationality:</span>&nbsp;Indian.
         </label>
-      </div>
+      </div> */}
       <p className="about-para">
         I Started off my self-learning journey with online tutorials Google,
         YouTube, etc and found it inetresting and decided to take a step further and Enrolled

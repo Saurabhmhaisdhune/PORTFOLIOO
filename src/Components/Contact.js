@@ -70,13 +70,11 @@ function Contact() {
         <a className='contact-list-all' href="tel:8956293676"><IoCallOutline className='contact-icons'/>+91-8956293676</a><br/>
         </div>
         <div className='social-media'>
-        <label className='contact-list-connect'>Connect me on</label><br/>
-        <div className='social-icon-main'>
+        <label className='contact-list-connect'>Connect me on</label>
+        <label className='social-icon-main'>
         <a target="_blank" href='https://github.com/Saurabhmhaisdhune' className='social-icon'><FaGithub/><span className='tooltip'>Github</span></a>
         <a target="_blank" href='https://www.linkedin.com/in/mlsaurabh/' className='social-icon'><FaLinkedin/><span className='tooltip'>Linkedin</span></a>
-        <a target="_blank" href='https://www.instagram.com/stubborn.sm/' className='social-icon'><FaInstagram/><span className='tooltip'>Instagram</span></a>
-        <a target="_blank" href='https://twitter.com/SaurabhMhaisdh2' className='social-icon'><FaTwitter/><span className='tooltip'>Twitter</span></a>
-        </div>
+        </label>
         </div>
       </div>
     </div>

@@ -4,13 +4,43 @@
 .cards{
     width: 500px;
     height: 400px;
+    margin-bottom: 150px;
+}
+@media(max-width:1600px){
+    .cards{
+        width: 400px;
+        height: 300px;
+    }
+}
+@media(max-width:600px){
+    .cards{
+        width: 300px;
+        height: 200px;
+    }
+    .project-links{
+        font-size: 12px;
+    }
+    .project-info{
+        font-size: 12px;
+        text-align: center;
+    }
+    .project-tech1,.project-tech2{
+        font-size: 12px;
+    }
+}
+.project-flexx{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px;
 }
 .project-dp{
     width: 100%;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
 }
-.project-flex{
+.project-flex-links{
     display: flex;
     flex-direction: row;
     gap: 20px;

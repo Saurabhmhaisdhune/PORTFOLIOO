@@ -8,7 +8,12 @@
     .skills-margin-item{
         height: auto;
     }
-
+}
+@media(max-width:430px){
+    .skills-icons{
+        width: 150px;
+        height: 40px;
+    }
 }
 .flexx{
     display: flex;

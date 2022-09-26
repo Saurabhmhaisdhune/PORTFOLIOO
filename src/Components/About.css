@@ -19,7 +19,6 @@ hr.hr{
 }
 .about-para{
     text-align: center;
-    font-size: small;
     font-size: 18px;
     position: relative;
     top: 20px;
@@ -65,4 +64,36 @@ hr.hr{
     justify-content: center;
     gap: 30px;
     margin-top: 60px;
+}
+@media(max-Width:1000px){
+    .about-margin-item{
+        margin: 10px;
+    }
+}
+@media(max-Width:1000px){
+    .about-para{
+        font-size: 15px;
+    }
+    .about-lets{
+        font-size: 2rem;
+        text-align: center;
+    }
+    .about-full{
+        font-size: 1.7rem;
+        text-align: center;
+    }
+
+}
+@media(max-Width:500px){
+    .about-para{
+        font-size: 12px;
+    }
+    .about-lets{
+        font-size: 1.5rem;
+    }
+    .about-full{
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
 }

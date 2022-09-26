@@ -20,34 +20,7 @@ function About() {
         humble, and continuously making strides to learn all that i can about
         development. I believe that my understanding of problem solving and
         problem identification are also skills that i have and will continue to
-        contribute to my overall success as a developer.
-      </p>
-      {/* <div className="about-flex-item">
-        <label className="information">
-          <AiOutlineForward className="AiOutlineForward" />
-          <span className="about-title">&nbsp;Degree:</span>&nbsp;Engineering.
-        </label>
-        <label className="information">
-          <AiOutlineForward className="AiOutlineForward" />
-          <span className="about-title">&nbsp;University:</span>&nbsp;Savitribai
-          Phule Pune University(SPPU)
-        </label>
-        <label className="information">
-          <AiOutlineForward className="AiOutlineForward" />
-          <span className="about-title">&nbsp;Languages:</span>&nbsp;English,
-          Marathi, Hindi.
-        </label>
-        <label className="information">
-          <AiOutlineForward className="AiOutlineForward" />
-          <span className="about-title">&nbsp;Born city:</span>&nbsp;Thane,
-          Maharashtra.
-        </label>
-        <label className="information">
-          <AiOutlineForward className="AiOutlineForward" />
-          <span className="about-title">&nbsp;Nationality:</span>&nbsp;Indian.
-        </label>
-      </div> */}
-      <p className="about-para">
+        contribute to my overall success as a developer.<br/>
         I Started off my self-learning journey with online tutorials Google,
         YouTube, etc and found it inetresting and decided to take a step further and Enrolled
         in the GUVI IIT MADRAS Full Stack developer Nanodegree Program which

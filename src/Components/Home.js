@@ -42,7 +42,7 @@ function Home() {
             <br /> Full Stack Web Development{" "}
           </label>
           <br />
-          <a target="_blank" href="https://docs.google.com/document/d/1CMXEugOYSyT2v4xkvW7KEJ_LRQiOuqkH/edit?usp=sharing&ouid=109357236682898433836&rtpof=true&sd=true" className="cv">
+          <a target="_blank" href="https://app.luminpdf.com/viewer/6347aa350b5f966f91140914" className="cv">
             <BiShow className="BiShow" />
             See My Resume.
           </a>

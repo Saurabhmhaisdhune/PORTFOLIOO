@@ -1,5 +1,5 @@
 .about-margin-item{
-    height: auto;
+    height: 16%;
     margin: 100px;
     padding: 50px;
 }
@@ -19,9 +19,11 @@ hr.hr{
 }
 .about-para{
     text-align: center;
-    font-size: 18px;
+    font-size: 20px;
     position: relative;
     top: 20px;
+    word-spacing: 2px;
+    letter-spacing: 1px;
 }
 .about-lets{
     font-family: Poppins,sans-serif;

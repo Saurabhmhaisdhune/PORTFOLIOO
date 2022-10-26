@@ -53,13 +53,13 @@ function Projects() {
             <label className="project-title">E-Commerce</label>
             <br />
             <label className="project-flex-links">
-              <a target="_blank" href="https://github.com/Saurabhmhaisdhune/Gmail_clone" className="project-links">
+              <a target="_blank" href="https://github.com/Saurabhmhaisdhune/E-Commerce-FE" className="project-links">
                 Github FE <SiGithub />
               </a>
-              <a target="_blank" href="https://incandescent-tiramisu-9886d5.netlify.app" className="project-links">
+              <a target="_blank" href="https://glowing-gumption-82f38f.netlify.app" className="project-links">
                 View site <FaExternalLinkAlt />
               </a>
-              <a target="_blank" href="https://github.com/Saurabhmhaisdhune/Gmail-clone-database" className="project-links">
+              <a target="_blank" href="https://github.com/Saurabhmhaisdhune/E-commerce-Backend" className="project-links">
                 Github BE <SiGithub />
               </a>
             </label>

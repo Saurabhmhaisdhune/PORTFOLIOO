@@ -45,7 +45,7 @@ function Projects() {
         </div>
         <div className="cards">
           <img
-            src="https://i.pcmag.com/imagery/articles/025Oaztt0ita5uBZZnF7f6p-1..v1627072521.png"
+            src="https://www.google.com/url?sa=i&url=https%3A%2F%2Ficonscout.com%2Fillustration%2Ffriends-chatting-on-social-media-4743498&psig=AOvVaw06fiVKuO7sSFYAhfEjkXVm&ust=1668513026212000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCPjXuK64r_sCFQAAAAAdAAAAABAU"
             className="project-dp"
             alt="chat app"
           />

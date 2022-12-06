@@ -9,7 +9,7 @@ import nodejs from "../icons/nodejs.png";
 import mongodb from "../icons/mongodb.png";
 import express from "../icons/express.png";
 import aws from "../icons/aws.png";
-import git from "../icons/git.png";
+import github from "../icons/github.png";
 import postman from "../icons/postman.png";
 import "./Skills.css";
 
@@ -61,8 +61,8 @@ function Skills() {
             <label className="subject">AWS</label>
           </div>
           <div className="skills-icons">
-            <img src={git} alt="git" className="image-icons" />
-            <label className="subject">GIT</label>
+            <img src={github} alt="git" className="image-icons" />
+            <label className="subject">GITHUB</label>
           </div>
           <div className="skills-icons">
             <img src={postman} alt="postman" className="image-icons" />

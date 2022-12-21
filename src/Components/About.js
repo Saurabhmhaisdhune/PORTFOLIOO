@@ -12,7 +12,7 @@ function About() {
       <label className="about-full">Full Stack Web Developer/MERN Stack</label>
       <br />
       <p className="about-para">
-        I am a Full Stack Web Developer with knowledge in front end and back end
+        I am a Full Stack Web Developer with knowledge of front-end and back-end
         technologies, responsive frameworks, databases, and best code practices.
         I Started off my self-learning journey with online tutorials on Google,
         YouTube, etc. Then decided to take a step further
@@ -20,7 +20,7 @@ function About() {
         Program which involved extensive programming and real-world projects.
         Later, I learned about MERN Stack from Guvi and built some Websites. My
         goal is to be the best web developer that I can be and to contribute to
-        the technology industry all that I know and can do. I am dedicated to
+        the technology industry with all that I know and can do. I am dedicated to
         perfecting my craft by learning from more seasoned developers, remaining
         humble, and continuously making strides to learn all that I can about
         development. I believe that my understanding of problem solving and

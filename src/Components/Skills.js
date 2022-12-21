@@ -11,6 +11,8 @@ import express from "../icons/express.png";
 import aws from "../icons/aws.png";
 import github from "../icons/github.png";
 import postman from "../icons/postman.png";
+import npm from "../icons/npm.png";
+import mui from "../icons/mui.png";
 import "./Skills.css";
 
 function Skills() {
@@ -20,6 +22,30 @@ function Skills() {
       <hr className="hr" />
       <div className="skills-margin-item">
         <div className="flexx">
+        <div className="skills-icons">
+            <img src={react} alt="react" className="image-icons" />
+            <label className="subject">REACT</label>
+          </div>
+          <div className="skills-icons">
+            <img src={nodejs} alt="nodejs" className="image-icons" />
+            <label className="subject">NODE JS</label>
+          </div>
+          <div className="skills-icons">
+            <img src={javascript} alt="javascript" className="image-icons" />
+            <label className="subject">JAVASCRIPT</label>
+          </div>
+          <div className="skills-icons">
+            <img src={express} alt="express" className="image-icons" />
+            <label className="subject">EXPRESS</label>
+          </div>
+          <div className="skills-icons">
+            <img src={mongodb} alt="mongodb" className="image-icons" />
+            <label className="subject">MONGODB</label>
+          </div>
+          <div className="skills-icons">
+            <img src={mysql} alt="mysql" className="image-icons" />
+            <label className="subject">MYSQL</label>
+          </div>
           <div className="skills-icons">
             <img src={html} alt="HTML" className="image-icons" />
             <label className="subject">HTML</label>
@@ -28,46 +54,32 @@ function Skills() {
             <img src={css} alt="CSS" className="image-icons" />
             <label className="subject">CSS</label>
           </div>
-          <div className="skills-icons">
-            <img src={javascript} alt="javascript" className="image-icons" />
-            <label className="subject">JAVASCRIPT</label>
-          </div>
+          
           <div className="skills-icons">
             <img src={bootstrap} alt="bootstrap" className="image-icons" />
             <label className="subject">BOOTSTRAP</label>
           </div>
           <div className="skills-icons">
-            <img src={react} alt="react" className="image-icons" />
-            <label className="subject">REACT</label>
-          </div>
-          <div className="skills-icons">
-            <img src={mysql} alt="mysql" className="image-icons" />
-            <label className="subject">MYSQL</label>
-          </div>
-          <div className="skills-icons">
-            <img src={nodejs} alt="nodejs" className="image-icons" />
-            <label className="subject">NODE JS</label>
-          </div>
-          <div className="skills-icons">
-            <img src={mongodb} alt="mongodb" className="image-icons" />
-            <label className="subject">MONGODB</label>
-          </div>
-          <div className="skills-icons">
-            <img src={express} alt="express" className="image-icons" />
-            <label className="subject">EXPRESS</label>
-          </div>
-          <div className="skills-icons">
-            <img src={aws} alt="aws" className="image-icons" />
-            <label className="subject">AWS</label>
+            <img src={postman} alt="postman" className="image-icons" />
+            <label className="subject">POSTMAN</label>
           </div>
           <div className="skills-icons">
             <img src={github} alt="git" className="image-icons" />
             <label className="subject">GITHUB</label>
           </div>
           <div className="skills-icons">
-            <img src={postman} alt="postman" className="image-icons" />
-            <label className="subject">POSTMAN</label>
+            <img src={npm} alt="git" className="image-icons" />
+            <label className="subject">NPM</label>
           </div>
+          <div className="skills-icons">
+            <img src={aws} alt="aws" className="image-icons" />
+            <label className="subject">AWS</label>
+          </div>
+          <div className="skills-icons">
+            <img src={mui} alt="git" className="image-icons" />
+            <label className="subject">MATERIAL UI</label>
+          </div>
+         
         </div>
       </div>
     </div>

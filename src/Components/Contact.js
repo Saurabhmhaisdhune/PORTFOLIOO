@@ -1,64 +1,77 @@
-import React, { useState } from 'react'
+import React, { useRef, useState } from 'react'
 import { FaGithub,FaLinkedin ,FaInstagram,FaTwitter } from 'react-icons/fa';
 import axios from 'axios';
 import './Contact.css';
 import {CgMail} from 'react-icons/cg'
 import {GoLocation} from 'react-icons/go'
 import {IoCallOutline} from 'react-icons/io5'
+import emailjs from '@emailjs/browser';
 
-let initialValue={
-  name:"",
-  email:"",
-  message:""
-}
+// let initialValue={
+//   name:"",
+//   email:"",
+//   message:""
+// }
 
 function Contact() {
-  const[data, setData]=useState(initialValue);
+  // const[data, setData]=useState(initialValue);
 
-  const handleChange=(e)=>{
-    setData({...data, [e.target.name]: e.target.value});
-    console.log(data);
-  };
+  // const handleChange=(e)=>{
+  //   setData({...data, [e.target.name]: e.target.value});
+  //   console.log(data);
+  // };
   
-  const handleSubmit=()=>{
-    axios
-    .post("https://saurabhtheater.herokuapp.com/register",JSON.stringify(data),
-    {
-      headers:{
-        "Content-type": "application/json"
-      }})
-      .then(() => setData(initialValue));
+  // const handleSubmit=()=>{
+  //   axios
+  //   .post("https://saurabhtheater.herokuapp.com/register",JSON.stringify(data),
+  //   {
+  //     headers:{
+  //       "Content-type": "application/json"
+  //     }})
+  //     .then(() => setData(initialValue));
+  // };
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_763cgbg', 'template_gxt3syy', form.current, '1-HGDh1HeOAHSiGrB')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
   };
+
 
   return (
     <div className='contact-margin-item' id='contact'>
     <div className='title'>CONTACT</div>
     <hr className='hr'/>
+ 
     <div className='contact-flex'>
       <div >
-
+      <form ref={form} onSubmit={sendEmail}>
       <input 
       type='text'
-      onChange={handleChange}
       name='name'
       className='contact-input'
       placeholder='Name'/><br/>
 
       <input 
       type='email'
-      onChange={handleChange}
-      name='email'
+      name='useremail'
       className='contact-input'
       placeholder='Email'/><br/>
 
       <textarea 
       type='text'
-      onChange={handleChange}
       name='message'
       className='contact-inputs'
       placeholder='Enter any message for me'/><br/>
 
-      <button onClick={handleSubmit} type='button' className='contact-button'>Send</button>
+      <button type='submit' className='contact-button'>Send</button>
+      </form>
       </div>
 
       <div className='contact-tips'>

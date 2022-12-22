@@ -70,7 +70,7 @@ function Projects() {
               </a>
               <a
                 target="_blank"
-                href="https://6372294a2a37142d19fb47bb--beamish-moonbeam-3db5fe.netlify.app/"
+                href="https://beamish-moonbeam-3db5fe.netlify.app"
                 className="project-links"
               >
                 View site <FaExternalLinkAlt />

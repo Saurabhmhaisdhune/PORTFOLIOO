@@ -11,6 +11,21 @@ function Projects() {
     <div className="projects-margin-item" id="projects">
       <div className="title">PROJECT</div>
       <hr className="hr" />
+      <div className="project-credentials">
+        <h2 className="credentials">Credentials</h2>
+        <p>
+          Booking App & Chat App: UserId:
+          <span className="project-credentials-span"> demoUser </span>
+          | Password:
+          <span className="project-credentials-span"> demoUser123</span>
+        </p>
+        <p>
+          E-commerece App & Gmail clone: UserId:
+          <span className="project-credentials-span"> demoUser@example.com </span>
+          | Password:
+          <span className="project-credentials-span"> demoUser123</span>
+        </p>
+      </div>
       <div className="project-flexx">
         <div className="cards">
           <img src={booking} className="project-dp" alt="gmail-clone" />
@@ -20,6 +35,7 @@ function Projects() {
             <label className="project-flex-links">
               <a
                 target="_blank"
+                rel="noreferrer"
                 href="https://github.com/Saurabhmhaisdhune/Booking-App-FE"
                 className="project-links"
               >
@@ -27,6 +43,7 @@ function Projects() {
               </a>
               <a
                 target="_blank"
+                rel="noreferrer"
                 href="https://jazzy-rugelach-720fa8.netlify.app"
                 className="project-links"
               >
@@ -34,6 +51,7 @@ function Projects() {
               </a>
               <a
                 target="_blank"
+                rel="noreferrer"
                 href="https://github.com/Saurabhmhaisdhune/Booking-App-BE"
                 className="project-links"
               >
@@ -63,6 +81,7 @@ function Projects() {
             <label className="project-flex-links">
               <a
                 target="_blank"
+                rel="noreferrer"
                 href="https://github.com/Saurabhmhaisdhune/Chat-App-FE"
                 className="project-links"
               >
@@ -70,6 +89,7 @@ function Projects() {
               </a>
               <a
                 target="_blank"
+                rel="noreferrer"
                 href="https://beamish-moonbeam-3db5fe.netlify.app"
                 className="project-links"
               >
@@ -77,6 +97,7 @@ function Projects() {
               </a>
               <a
                 target="_blank"
+                rel="noreferrer"
                 href="https://github.com/Saurabhmhaisdhune/Chat-app-BE"
                 className="project-links"
               >
@@ -105,6 +126,7 @@ function Projects() {
             <label className="project-flex-links">
               <a
                 target="_blank"
+                rel="noreferrer"
                 href="https://github.com/Saurabhmhaisdhune/E-Commerce-FE"
                 className="project-links"
               >
@@ -112,6 +134,7 @@ function Projects() {
               </a>
               <a
                 target="_blank"
+                rel="noreferrer"
                 href="https://glowing-gumption-82f38f.netlify.app"
                 className="project-links"
               >
@@ -119,6 +142,7 @@ function Projects() {
               </a>
               <a
                 target="_blank"
+                rel="noreferrer"
                 href="https://github.com/Saurabhmhaisdhune/E-commerce-Backend"
                 className="project-links"
               >
@@ -151,6 +175,7 @@ function Projects() {
             <label className="project-flex-links">
               <a
                 target="_blank"
+                rel="noreferrer"
                 href="https://github.com/Saurabhmhaisdhune/Gmail_clone"
                 className="project-links"
               >
@@ -158,6 +183,7 @@ function Projects() {
               </a>
               <a
                 target="_blank"
+                rel="noreferrer"
                 href="https://incandescent-tiramisu-9886d5.netlify.app"
                 className="project-links"
               >
@@ -165,6 +191,7 @@ function Projects() {
               </a>
               <a
                 target="_blank"
+                rel="noreferrer"
                 href="https://github.com/Saurabhmhaisdhune/Gmail-clone-database"
                 className="project-links"
               >

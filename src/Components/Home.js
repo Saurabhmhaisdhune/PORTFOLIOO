@@ -2,12 +2,11 @@ import React from "react";
 import image from "../icons/image-1.jpg";
 import "./Home.css";
 import Typewriter from "typewriter-effect";
-import { useNavigate } from "react-router-dom";
 import { BiShow } from "react-icons/bi";
 import { SiLinkedin, SiGithub } from "react-icons/si";
 
 function Home() {
-  const navigate = useNavigate();
+
   return (
     <div className="home-margin-items" id="home">
       <div className="home-flex">
@@ -42,7 +41,7 @@ function Home() {
             <br /> Full Stack Web Development{" "}
           </label>
           <br />
-          <a target="_blank" href="https://drive.google.com/file/d/1LB-0YTUdcMfMjpEyab_mSumBGKzTYfGX/view?usp=sharing" className="cv">
+          <a target="_blank" rel="noreferrer" href="https://drive.google.com/file/d/1LB-0YTUdcMfMjpEyab_mSumBGKzTYfGX/view?usp=sharing" className="cv">
             <BiShow className="BiShow" />
             See My Resume.
           </a>
@@ -50,6 +49,7 @@ function Home() {
           <div className="icons">
             <a
               target="_blank"
+              rel="noreferrer"
               href="https://www.linkedin.com/in/mlsaurabh/"
               className="linkedin-icon"
             >
@@ -58,6 +58,7 @@ function Home() {
             </a>
             <a
               target="_blank"
+              rel="noreferrer"
               href="https://github.com/Saurabhmhaisdhune"
               className="github-icon"
             >

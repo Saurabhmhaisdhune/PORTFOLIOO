@@ -1,10 +1,8 @@
 import React from "react";
 import "./Sidebar.css";
-import { useNavigate } from "react-router-dom";
 import { Link } from "react-scroll";
 
 function Sidebar(params) {
-  const navigate = useNavigate();
   return (
     <div className="sidebar-main">
       {params.show ? (

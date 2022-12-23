@@ -83,3 +83,9 @@
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
 }
+.project-credentials{
+    text-align: center;
+}
+.project-credentials-span{
+    color:  #41c9ff;
+}

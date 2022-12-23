@@ -1,6 +1,5 @@
 import React from "react";
 import "./About.css";
-import { AiOutlineForward } from "react-icons/ai";
 
 function About() {
   return (

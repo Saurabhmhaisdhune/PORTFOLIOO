@@ -3,7 +3,7 @@ import "./Project.css";
 import { SiGithub } from "react-icons/si";
 import { FaExternalLinkAlt } from "react-icons/fa";
 import chats from "../icons/chatapp.png";
-import ecommerce from "../icons/Ecommerce.png";
+import ecommerce from "../icons/Ecommerces.jpg";
 import booking from "../icons/booking.png";
 
 function Projects() {

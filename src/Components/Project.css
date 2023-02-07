@@ -5,6 +5,7 @@
     width: 500px;
     height: 400px;
     margin-bottom: 160px;
+    transition: 900ms;
 }
 @media(max-width:1600px){
     .cards{
@@ -88,4 +89,9 @@
 }
 .project-credentials-span{
     color:  #41c9ff;
+}
+.cards:hover{
+    position: relative;
+    width: 550px;
+    height: 450px;
 }

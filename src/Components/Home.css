@@ -3,23 +3,23 @@
     border-radius: 160px;
     position: absolute;
     transition: 900ms;
-    right: 280px;
+    right: 260px;
     border: 15px solid #41c9ff;
 }
 @media(max-width:1400px){
     .home-image{
-        right: 220px;
+        right: 200px;
         height: 250px;
     }
 }
-@media(max-width:1300px){
+@media(max-width:1355px){
     .home-image{
        visibility: hidden;
     }
 }
 @media(max-width:1700px){
     .home-image{
-        right: 220px;
+        right: 180px;
         height: 300px;
     }
 }

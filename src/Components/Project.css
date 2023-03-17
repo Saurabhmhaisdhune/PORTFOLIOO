@@ -2,15 +2,15 @@
     height: auto;
 }
 .cards{
-    width: 500px;
-    height: 400px;
+    width: 450px;
+    height: 350px;
     margin-bottom: 160px;
     transition: 900ms;
 }
 @media(max-width:1600px){
     .cards{
-        width: 400px;
-        height: 300px;
+        width: 430px;
+        height: 330px;
     }
 }
 @media(max-width:600px){
@@ -92,6 +92,6 @@
 }
 .cards:hover{
     position: relative;
-    width: 550px;
-    height: 450px;
+    width: 460px;
+    height: 360px;
 }

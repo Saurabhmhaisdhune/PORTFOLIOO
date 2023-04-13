@@ -21,12 +21,17 @@ function Home() {
             <Typewriter
               onInit={(typewriter) => {
                 typewriter
-                  .deleteChars(11)
+                  
                   .typeString(
                     'I am <span style="color:red">Web Developer.</span>'
                   )
                   .pauseFor(300)
                   .deleteChars(14)
+                  .typeString(
+                    '<span style="color:red">Front End Developer.</span>'
+                  )
+                  .pauseFor(300)
+                  .deleteChars(20)
                   .typeString(
                     '<span style="color:red">Full Stack Developer.</span>'
                   )
@@ -41,7 +46,7 @@ function Home() {
             <br /> Full Stack Web Development{" "}
           </label>
           <br />
-          <a target="_blank" rel="noreferrer" href="https://drive.google.com/file/d/1FUeYlSuzqeR1ZM42nqBQsRvxPmxkgNx0/view?usp=sharing" className="cv">
+          <a target="_blank" rel="noreferrer" href="https://drive.google.com/file/d/1O2V1X8xcES1lSHvkRF2By77c2anCvXzj/view?usp=sharing" className="cv">
             <BiShow className="BiShow" />
             See My Resume.
           </a>

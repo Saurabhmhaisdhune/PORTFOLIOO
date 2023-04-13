@@ -8,23 +8,25 @@ function About() {
       <hr className="hr" />
       <label className="about-lets">Let's get to know me.</label>
       <br />
-      <label className="about-full">Full Stack Web Developer/MERN Stack</label>
+      <label className="about-full">
+        Full Stack Developer/ Front End Developer
+      </label>
       <br />
       <p className="about-para">
-        I am a Full Stack Web Developer with knowledge of front-end and back-end
-        technologies, responsive frameworks, databases, and best code practices.
-        I Started off my self-learning journey with online tutorials on Google,
-        YouTube, etc. Then decided to take a step further
-        and Enrolled in the GUVI IIT MADRAS Full Stack developer Nanodegree
-        Program which involved extensive programming and real-world projects.
-        Later, I learned about MERN Stack from Guvi and built some Websites. My
-        goal is to be the best web developer that I can be and to contribute to
-        the technology industry with all that I know and can do. I am dedicated to
-        perfecting my craft by learning from more seasoned developers, remaining
-        humble, and continuously making strides to learn all that I can about
-        development. I believe that my understanding of problem solving and
-        problem identification are also skills that i have and will continue to
-        contribute to my overall success as a developer.
+        I specialize in Full Stack Web Development with a strong focus on
+        Frontend technologies. My skills encompass both front-end and back-end
+        technologies, including responsive frameworks, databases, and best code
+        practices. I began my journey by teaching myself through online
+        tutorials on Google, YouTube, and other resources. I later decided to
+        take my learning to the next level and enrolled in the Full Stack
+        developer Nanodegree Program at GUVI IIT MADRAS, where I worked on
+        extensive programming and real-world projects. During this program, I
+        discovered MERN Stack and built several websites using this technology.
+        My ultimate goal is to become the best possible web developer,
+        continuously learning from more experienced developers, remaining
+        humble, and striving to improve my skills. Additionally, my strong
+        problem-solving and problem identification skills contribute to my
+        success as a developer.
       </p>
     </div>
   );

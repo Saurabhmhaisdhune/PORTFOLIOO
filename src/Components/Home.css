@@ -58,29 +58,28 @@
     font-size: xx-large;
 }
 .cv{
-    width: 150px;
+    width:150px;
     height: 40px;
-    color: #41c9ff;
+    color: #000000;
     border-color: aliceblue;
-    font-family: cursive;
+    font-family:Arial, Helvetica, sans-serif;
     font-size: medium;
-    transition:1000ms;
-    background-color: rgb(0, 0, 0);
-    border:1px solid white;
-    border-radius: 10px;
+    transition:300ms;
+    background-color: rgb(40, 172, 255);
+    border:2px solid white;
+    border-radius: 2px;
     text-decoration: none;
-    padding: 10px;
+    padding: 10px 20px 10px 20px;
     position: relative;
     top: 25px;
 }
 .cv:hover{
     cursor: pointer;
-    background-color: rgb(80, 80, 80);
+    background-color:rgb(0, 157, 255);
     color:rgb(255, 255, 255);
     margin-top: 20px;
     height: 45px;
     width: 170px;
-    border-radius: 10px;
 }
 .BiShow{
     padding-right: 8px;
@@ -93,7 +92,7 @@
     color:white;
     font-size: medium;
     font-weight: 300;
-    margin-top: 50px;  
+    margin-top: 50px; 
 }
 .linkedin-icon:hover{
     cursor: pointer;

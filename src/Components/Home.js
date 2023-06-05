@@ -48,7 +48,7 @@ function Home() {
           <br />
           <a target="_blank" rel="noreferrer" href="https://drive.google.com/file/d/1YA7xLJEVHGzhyIgd7jq2iuU6mSDEBFpM/view?usp=sharing" className="cv">
             <BiShow className="BiShow" />
-            See My Resume.
+            My Resume
           </a>
           <br />
           <div className="icons">

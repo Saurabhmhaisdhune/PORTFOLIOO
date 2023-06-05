@@ -15,13 +15,16 @@ function Projects() {
         <h2 className="credentials">Credentials</h2>
         <p>
           Booking App & Chat App: UserId:
-          <span className="project-credentials-span"> demoUser </span>
-          | Password:
+          <span className="project-credentials-span"> demoUser </span>|
+          Password:
           <span className="project-credentials-span"> demoUser123</span>
         </p>
         <p>
           E-commerece App & Gmail clone: UserId:
-          <span className="project-credentials-span"> demoUser@example.com </span>
+          <span className="project-credentials-span">
+            {" "}
+            demoUser@example.com{" "}
+          </span>
           | Password:
           <span className="project-credentials-span"> demoUser123</span>
         </p>
@@ -59,9 +62,9 @@ function Projects() {
               </a>
             </label>
             <p className="project-info">
-              This is Fullstack MERN website is used as Hotel Booking website.
-              <br />
-              This application is used for Hotel Booking Application.
+              This is Full MERN stack website used for Booking Hotel. This
+              application enables users to effortlessly register, log-in, search
+              for hotels, and book rooms based on their preferences.
             </p>
             <br />
             <label className="project-tech">
@@ -105,15 +108,16 @@ function Projects() {
               </a>
             </label>
             <p className="project-info">
-              This is Fullstack MERN website is used as chat application.
-              <br />
-              This application is used to send and recive messages.
+              This is Fullstack MERN website is a real-time chat
+              application.This application enables users to effortlessly
+              register, log-in, and chat with the available User in contact
+              list.
             </p>
             <br />
             <label className="project-tech">
               <span className="project-tech1">TECH USED:</span>
               <span className="project-tech2">
-                &nbsp;React, Node, Express, MongoDB.
+                &nbsp;React, Node, Express, MongoDB, Scoket.io.
               </span>
             </label>
           </div>
@@ -150,15 +154,15 @@ function Projects() {
               </a>
             </label>
             <p className="project-info">
-              This is Fullstack MERN website is used as E-Commerce website.
-              <br />
-              This application is used for online shopping.
+              This is Full MERN stack website used for Online Shopping. This
+              application enables users to effortlessly register, log-in, add
+              any product to cart and place a order with playment getway.
             </p>
             <br />
             <label className="project-tech">
               <span className="project-tech1">TECH USED:</span>
               <span className="project-tech2">
-                &nbsp;React, Node, Express, MongoDB.
+                &nbsp;React, Node, Express, MongoDB, Stripe.
               </span>
             </label>
           </div>
@@ -199,9 +203,9 @@ function Projects() {
               </a>
             </label>
             <p className="project-info">
-              This is Fullstack MERN website is used as Gmail.
-              <br />
-              This application is used for sending and receiving mail.
+              This is Full MERN stack website used for mailing. It is a
+              Gmail-like UI, implements user login, and enables CRUD operations
+              for sending, receiving, and deleting emails.
             </p>
             <br />
             <label className="project-tech">

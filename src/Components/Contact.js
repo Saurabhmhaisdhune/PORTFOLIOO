@@ -36,6 +36,7 @@ function Contact() {
 
       <div className="contact-flex">
         <div>
+          <div className="message">Leave a message for me I will get back to you</div>
           <form ref={form} onSubmit={sendEmail}>
             <input
               type="text"

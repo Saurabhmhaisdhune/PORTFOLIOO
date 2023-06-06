@@ -62,8 +62,8 @@ function Projects() {
               </a>
             </label>
             <p className="project-info">
-              This is Full MERN stack website used for Booking Hotel. This
-              application enables users to effortlessly register, log-in, search
+              This is a Full MERN stack website used for Booking hotels. This
+              application enables users to effortlessly register, log in, search
               for hotels, and book rooms based on their preferences.
             </p>
             <br />
@@ -108,10 +108,9 @@ function Projects() {
               </a>
             </label>
             <p className="project-info">
-              This is Fullstack MERN website is a real-time chat
-              application.This application enables users to effortlessly
-              register, log-in, and chat with the available User in contact
-              list.
+              This is a Fullstack MERN website is a real-time chat application.
+              This application enables users to effortlessly register, log in,
+              and chat with the available User in the contact list.
             </p>
             <br />
             <label className="project-tech">
@@ -154,9 +153,9 @@ function Projects() {
               </a>
             </label>
             <p className="project-info">
-              This is Full MERN stack website used for Online Shopping. This
-              application enables users to effortlessly register, log-in, add
-              any product to cart and place a order with playment getway.
+              This is a Full MERN stack website used for Online Shopping. This
+              application enables users to effortlessly register, log in, add
+              any product to a cart, and place an order with a payment gateway.
             </p>
             <br />
             <label className="project-tech">

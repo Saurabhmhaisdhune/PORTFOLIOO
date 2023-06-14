@@ -92,6 +92,6 @@
 .project-credentials-span {
   color: #41c9ff;
 }
-.cards:hover .project-title {
-  font-size: 25px;
+.cards:hover {
+  transform: scale(1.1);
 }

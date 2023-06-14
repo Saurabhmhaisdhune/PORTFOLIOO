@@ -40,5 +40,5 @@
   height: 50px;
 }
 .skills-icons:hover {
-  font-size: 23px;
+  transform: scale(1.1);
 }

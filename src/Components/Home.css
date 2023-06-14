@@ -36,8 +36,9 @@
     margin-top: 270px;
 }
 .home-image:hover{
-   height: 280px;
-   border-radius: 10px;
+   /* height: 280px;
+   border-radius: 10px; */
+   transform: scale(0.7);
 }
 .home-flex{
     display: flex;

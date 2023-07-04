@@ -88,7 +88,7 @@ hr.hr{
 }
 @media(max-Width:500px){
     .about-para{
-        font-size: 12px;
+        font-size: 18px;
     }
     .about-lets{
         font-size: 1.5rem;

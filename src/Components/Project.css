@@ -15,8 +15,9 @@
 }
 @media (max-width: 600px) {
   .cards {
-    width: 300px;
-    height: 200px;
+    width: 400px;
+    height: 300px;
+    margin-top: 10px;
   }
   .project-links {
     font-size: 12px;
@@ -29,6 +30,10 @@
   .project-tech2 {
     font-size: 12px;
   }
+  .project-flexx {
+    display: flex;
+    flex-direction: column;
+}
 }
 .project-flexx {
   display: flex;

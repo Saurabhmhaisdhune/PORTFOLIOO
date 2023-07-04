@@ -15,6 +15,9 @@
     height: 40px;
   }
 }
+/* @media (max-width: 600px) {
+  
+} */
 .flexx {
   display: flex;
   flex-wrap: wrap;

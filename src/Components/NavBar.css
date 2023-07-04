@@ -1,7 +1,7 @@
 .main-nav {
   display: flex;
   justify-content: space-between;
-  padding-right: 50px;
+  padding-right: 100px;
   align-items: center;
 }
 .sidebar-btn {

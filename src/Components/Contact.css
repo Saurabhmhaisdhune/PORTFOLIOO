@@ -37,7 +37,7 @@
     line-height: 1.4;
     word-spacing: 2px;
     background-color: black;
-    border-radius: 8px;
+    border-radius: 10px;
     width: 350px;
     display: flex;
     justify-content: left;
@@ -119,8 +119,8 @@ textarea:focus{
     text-decoration: none;
     color: rgb(53, 114, 255);
     font-size: xx-large;
-    margin-right: 15px;
-    padding: 15px;
+    margin-right: 5px;
+    padding: 5px;
 }
 .tooltip{
     visibility: hidden;
@@ -137,6 +137,7 @@ textarea:focus{
     left: 10px;
     margin-left: -60px;
     transition-delay: 200ms;
+    font-family: Poppins;
   }
 .social-icon:hover .tooltip{
     visibility: visible;

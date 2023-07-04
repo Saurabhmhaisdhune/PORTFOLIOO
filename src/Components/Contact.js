@@ -110,7 +110,7 @@ function Contact() {
                 className="social-icon"
               >
                 <FaGithub />
-                <span className="tooltip">Github</span>
+                <span className="tooltip">GitHub</span>
               </a>
               <a
                 target="_blank"
@@ -119,7 +119,7 @@ function Contact() {
                 className="social-icon"
               >
                 <FaLinkedin />
-                <span className="tooltip">Linkedin</span>
+                <span className="tooltip">LinkedIn</span>
               </a>
             </label>
           </div>

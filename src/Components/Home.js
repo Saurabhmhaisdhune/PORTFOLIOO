@@ -21,21 +21,16 @@ function Home() {
             <Typewriter
               onInit={(typewriter) => {
                 typewriter
-                  
+              
                   .typeString(
-                    'I am <span style="color:red">Web Developer.</span>'
+                    'I am <span style="color:red">Front-End Developer.</span>'
                   )
-                  .pauseFor(300)
-                  .deleteChars(14)
-                  .typeString(
-                    '<span style="color:red">Front End Developer.</span>'
-                  )
-                  .pauseFor(300)
+                  .pauseFor(200)
                   .deleteChars(20)
                   .typeString(
                     '<span style="color:red">Full Stack Developer.</span>'
                   )
-                  .pauseFor(300)
+                  .pauseFor(200)
                   .start();
               }}
             />

@@ -1,5 +1,5 @@
-import React, { useRef} from "react";
-import { FaGithub, FaLinkedin} from "react-icons/fa";
+import React, { useRef } from "react";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 import "./Contact.css";
 import { CgMail } from "react-icons/cg";
 import { GoLocation } from "react-icons/go";
@@ -31,12 +31,17 @@ function Contact() {
 
   return (
     <div className="contact-margin-item" id="contact">
-      <div className="title">CONTACT</div>
-      <hr className="hr" />
+      <div className="title">Contact</div>
+      <h1 className="about-lets">
+        <span>My Connection Details.</span>
+        <hr className="hr2" />
+      </h1>
 
       <div className="contact-flex">
         <div>
-          <div className="message">Leave a message for me I will get back to you</div>
+          <div className="message">
+            Leave a message for me I will get back to you
+          </div>
           <form ref={form} onSubmit={sendEmail}>
             <input
               type="text"

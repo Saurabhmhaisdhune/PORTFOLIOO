@@ -6,11 +6,11 @@
   margin: 30px;
 }
 body{
-  background-color:#232323;
-  color:#ffffff;
-  font-family: sans-serif;
+  background-color: #f2f2f2;
+  font-family: 'Nunito Sans', sans-serif;
   margin: 0px;
   width: 100%;
+  overflow: auto;  
 }
 .flex-item{
   display: flex;
@@ -20,7 +20,10 @@ body{
   position: fixed;
   display: flex;
   right: 0px;
-  top: 85px;
+  top: 80px;
   transition: all 1s ease;
+}
+::-webkit-scrollbar {
+  display: none;
 }
 

@@ -10,10 +10,15 @@ import Sidebar from "./Components/Sidebar";
 
 function App() {
   const [show, setShow] = useState(false);
+  const [activeButton, setActiveButton] = useState("button1");
 
   return (
-    <>
-      <NavBar setShow={setShow} />
+    <div className="app">
+      <NavBar
+        setShow={setShow}
+        setActiveButton={setActiveButton}
+        activeButton={activeButton}
+      />
       <div className="flex-item">
         <div>
           <Home />
@@ -23,10 +28,13 @@ function App() {
           <Contact />
         </div>
         <div className="sidebar">
-          <Sidebar show={show} setShow={setShow} />
+          <Sidebar
+            show={show}
+            setShow={setShow}
+          />
         </div>
       </div>
-    </>
+    </div>
   );
 }
 

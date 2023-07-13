@@ -3,14 +3,17 @@ import "./Project.css";
 import { SiGithub } from "react-icons/si";
 import { FaExternalLinkAlt } from "react-icons/fa";
 import chats from "../icons/chatapp.png";
-import ecommerce from "../icons/Ecommerces.jpg";
+import ecommerce from "../icons/ecom.png";
 import booking from "../icons/booking.png";
 
 function Projects() {
   return (
     <div className="projects-margin-item" id="projects">
-      <div className="title">PROJECT</div>
-      <hr className="hr" />
+      <div className="title">Project</div>
+      <h1 className="about-lets">
+        <span>Work I have Done so Far</span>
+        <hr className="hr2" />
+      </h1>
       <div className="project-credentials">
         <h2 className="credentials">Credentials</h2>
         <p>
@@ -35,7 +38,7 @@ function Projects() {
           <div className="project-all">
             <label className="project-title">Booking Application</label>
             <br />
-            <label className="project-flex-links">
+            <div className="project-flex-links">
               <a
                 target="_blank"
                 rel="noreferrer"
@@ -60,7 +63,7 @@ function Projects() {
               >
                 Github BE <SiGithub />
               </a>
-            </label>
+            </div>
             <p className="project-info">
               This is a Full MERN stack website used for Booking hotels. This
               application enables users to effortlessly register, log in, search
@@ -214,6 +217,90 @@ function Projects() {
               </span>
             </label>
           </div>
+          {/* <div className="project-all">
+            <label className="project-title">Gmail clone</label>
+            <br />
+            <label className="project-flex-links">
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://github.com/Saurabhmhaisdhune/Gmail_clone"
+                className="project-links"
+              >
+                Github FE <SiGithub />
+              </a>
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://incandescent-tiramisu-9886d5.netlify.app"
+                className="project-links"
+              >
+                View site <FaExternalLinkAlt />
+              </a>
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://github.com/Saurabhmhaisdhune/Gmail-clone-database"
+                className="project-links"
+              >
+                Github BE <SiGithub />
+              </a>
+            </label>
+            <p className="project-info">
+              This is Full MERN stack website used for mailing. It is a
+              Gmail-like UI, implements user login, and enables CRUD operations
+              for sending, receiving, and deleting emails.
+            </p>
+            <br />
+            <label className="project-tech">
+              <span className="project-tech1">TECH USED:</span>
+              <span className="project-tech2">
+                &nbsp;React, Node, Express, MongoDB.
+              </span>
+            </label>
+          </div>
+          <div className="project-all">
+            <label className="project-title">Gmail clone</label>
+            <br />
+            <label className="project-flex-links">
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://github.com/Saurabhmhaisdhune/Gmail_clone"
+                className="project-links"
+              >
+                Github FE <SiGithub />
+              </a>
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://incandescent-tiramisu-9886d5.netlify.app"
+                className="project-links"
+              >
+                View site <FaExternalLinkAlt />
+              </a>
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://github.com/Saurabhmhaisdhune/Gmail-clone-database"
+                className="project-links"
+              >
+                Github BE <SiGithub />
+              </a>
+            </label>
+            <p className="project-info">
+              This is Full MERN stack website used for mailing. It is a
+              Gmail-like UI, implements user login, and enables CRUD operations
+              for sending, receiving, and deleting emails.
+            </p>
+            <br />
+            <label className="project-tech">
+              <span className="project-tech1">TECH USED:</span>
+              <span className="project-tech2">
+                &nbsp;React, Node, Express, MongoDB.
+              </span>
+            </label>
+          </div> */}
         </div>
       </div>
     </div>

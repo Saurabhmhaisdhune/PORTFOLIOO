@@ -1,25 +1,40 @@
 .main-nav {
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
-  padding-right: 100px;
   align-items: center;
+  background-color: white;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  height: 80px;
+  border-bottom: 1px solid rgb(204, 204, 204);
+}
+.web-logo{
+  width: 58px;
+  height: 55px;
+ 
 }
 .sidebar-btn {
-  font-size: 30px;
-  position: absolute;
-  right: 70px;
-  padding: 15px;
+  font-size: 25px;
   transition: 100ms;
-  visibility: hidden;
+  padding-right: 4.8rem;
 }
 .name {
-  font-size: 40px;
-  padding-left: 50px;
-  word-spacing: 7px;
+  font-size: 20px;
+  padding-left: 4rem;
+  font-family: 'Fasthand';
   display: flex;
-  justify-content: baseline;
-  color: #41c9ff;
-  align-items: center;
+  align-items:center ;
+  gap: 5px;
+}
+.Saurabh-M{
+  font-family: 'Fasthand';
+}
+.logo{
+  h2{
+    margin: 0px;
+  }
 }
 @media (max-width: 1120px) {
   .name {
@@ -30,6 +45,11 @@
     font-size: 15px;
     padding-left: 5px;
     padding-right: 5px;
+  }
+}
+@media (max-width: 640px) {
+  .menu-link-12{
+    visibility: hidden;
   }
 }
 @media (max-width: 640px) {
@@ -56,40 +76,32 @@
     visibility: hidden;
   }
 }
-.navbar {
-  background-color: black;
-  color: rgb(255, 255, 255);
-  width: 100%;
-  position: fixed;
-  z-index: 1;
-  border-bottom: 2px solid rgb(139, 139, 139);
-}
 .sidebar-btn:hover {
   cursor: pointer;
-  color: white;
-  background-color: rgb(64, 64, 64);
-  border-radius: 20px;
-  font-size: 34px;
 }
-.CgCodeSlash {
-  padding-right: 6px;
-  padding-left: 6px;
-  color: aliceblue;
-}
+
 .links {
   list-style-type: none;
-  color: white;
-  font-size: 20px;
+  color: rgb(0, 0, 0);
+  font-size: 18px;
   text-align: center;
   font-weight: 400;
-  padding-left: 20px;
-  padding-right: 20px;
+}
+.current-comp{
+  list-style-type: none;
+  color:  rgba(0, 137, 121, 0.923);
+  font-size: 18px;
+  text-align: center;
+  font-weight:500;
+  border-bottom: 1px solid rgba(0, 137, 121, 0.923);
+  transition: 100ms;
 }
 .menu-link-12 {
+  padding-right: 5rem;
   display: flex;
   flex-direction: row;
+  gap: 2rem;
 }
 .links:hover {
   cursor: pointer;
-  color: #41c9ff;
 }

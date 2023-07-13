@@ -1,13 +1,13 @@
 .contact-flex{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    gap: 300px;
-    height: 75vh;
-    font-family: Poppins;
+    justify-content: space-between;
+    gap: 100px;
+    height: auto;
+    padding: 150px 0px;
 }
+
 .contact-list{
-    font-family: Poppins;
     font-weight: 300;
     font-size: 20px;
     line-height: 1.4;
@@ -19,7 +19,6 @@
     margin-left: 15px;
 }
 .contact-list-connect{
-    font-family: Poppins;
     font-weight: 300;
     font-size: 20px;
     line-height: 1.4;
@@ -31,12 +30,11 @@
     margin-top: 15px;
 }
 .contact-list-all{
-    font-family: Poppins;
     font-weight: 300;
-    font-size: 20px;
+    font-size: 15px;
     line-height: 1.4;
     word-spacing: 2px;
-    background-color: black;
+    background-color: rgb(255, 255, 255);
     border-radius: 10px;
     width: 350px;
     display: flex;
@@ -45,7 +43,8 @@
     gap: 15px;
     padding: 8px;
     text-decoration: none;
-    color: white;
+    color: rgb(0, 0, 0);
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
 }
 .contact-list-main{
     position: relative;
@@ -64,15 +63,15 @@
     /* border-radius: 5px; */
     margin-bottom: 10px;
     margin-top: 2px;
-    font-family: Poppins;
     font-size: large;
     padding-left: 5px;
     border-radius: 2px;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
 }
 .contact-icons{
-    color: #41c9ff;
+    color: #000000;
     padding: 10px;
-    background-color: rgb(48, 48, 48);
+    background-color: rgb(238, 238, 238);
     border-radius: 50%;
 }
 .contact-inputs{
@@ -80,44 +79,48 @@
     height: 150px;
     border: none;
     margin-top: 2px;
-    font-family: Poppins;
     font-size:large;
     padding-left: 5px;
     padding-top: 5px;
     border-radius: 2px;
 }
 input:focus{
-    border:2px solid #41c9ff;
+    border:none;
     outline: none;
 }
 textarea:focus{
-    border:2px solid #41c9ff;
+    border:none;
     outline: none;
 }
-.contact-flex{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+textarea{
+    font-family: 'Nunito Sans', sans-serif; 
+    font-size: 200;
+    overflow-y: scroll;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
 }
+
 .contact-button{
     width: 120px;
     height: 30px;
     margin-top: 10px;
-    background-color: rgb(41, 123, 255);
+    background-color: #00b3b3;
     color: white;
     border: none;
     font-size: 15px;
     border-radius: 2px;
 }
 .contact-button:hover{
-    background-color: rgb(144, 179, 255);
-    color: black;
+    background-color:#009999;
     cursor: pointer;
 }
-
+.social-media{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
 .social-icon{
     text-decoration: none;
-    color: rgb(53, 114, 255);
+    color: rgb(0, 0, 0);
     font-size: xx-large;
     margin-right: 5px;
     padding: 5px;
@@ -137,20 +140,27 @@ textarea:focus{
     left: 10px;
     margin-left: -60px;
     transition-delay: 200ms;
-    font-family: Poppins;
   }
 .social-icon:hover .tooltip{
     visibility: visible;
 }
 .contact-list-all:hover{
     cursor: pointer;
+    color: #fff;
     background-color:rgb(48, 48, 48);
 }
 .social-icon:hover{
-    color: white;
+    color: rgb(133, 133, 133);
 }
 .message{
     font-size: 21px;
     font-weight: 100;
     padding-bottom: 20px;
+    font-family: 'Rubik', sans-serif;
+}
+.contact-list{
+    font-family: 'Rubik', sans-serif; 
+}
+.contact-margin-item{
+    padding: 50px 150px;
 }

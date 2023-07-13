@@ -1,116 +1,115 @@
-.home-image{
-    height: 400px;
-    border-radius: 160px;
-    position: absolute;
-    transition: 900ms;
-    right: 260px;
-    border: 15px solid #41c9ff;
+.home-image {
+  height: 350px;
+  border-top-right-radius: 150px;
+  border-bottom-left-radius: 150px;
+  margin-bottom: 100px;
 }
-@media(max-width:1400px){
-    .home-image{
-        right: 200px;
-        height: 250px;
-    }
+.home-back{
+    background-image: url("https://www.codewithrandom.com/wp-content/uploads/2022/10/Number-Guessing-Game-using-JavaScript-3.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-@media(max-width:1355px){
-    .home-image{
-       visibility: hidden;
-    }
+@media (max-width: 1400px) {
+  .home-image {
+    right: 200px;
+    height: 250px;
+  }
 }
-@media(max-width:1700px){
-    .home-image{
-        right: 180px;
-        height: 300px;
-    }
+@media (max-width: 1355px) {
+  .home-image {
+    visibility: hidden;
+  }
 }
-@media(max-Width:1000px){
-    .home-flex{
-        margin-left: -110px;
-    }
+@media (max-width: 1700px) {
+  .home-image {
+    right: 180px;
+    height: 300px;
+  }
 }
-
-.home-margin-items{
-    height: 60vh;
-    display: flex;
-    margin-left: 140px;
-    margin-top: 270px;
+@media (max-width: 1000px) {
+  /* .home-flex {
+    margin-left: -110px;
+  } */
 }
-.home-image:hover{
-   /* height: 280px;
-   border-radius: 10px; */
-   transform: scale(0.7);
+.home-margin-items {
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  /* gap: 150px; */
+  align-items: center;
+  padding: 0px 150px;
 }
-.home-flex{
-    display: flex;
+.home-flex {
+  display: flex;
 }
-.name-tag{
-    color: #41c9ff;
-    font-family: Raleway,sans-serif;
-    font-size: 35px;
-    font-weight: 700;
+.name-tag {
+  font-size: 35px;
+  font-weight: 700;
 }
-.highlight{
-    color: rgb(255, 255, 255);
-    font-family: Poppins,sans-serif;
-    font-size: 90px;
-    font-weight: 700;
+.highlight {
+  font-size: 90px;
+  font-weight: 700;
 }
-.typewriter{
-    font-size: xx-large;
+.typewriter {
+  font-size: xx-large;
 }
-.cv{
-    width:150px;
-    height: 40px;
-    color: #000000;
-    border-color: aliceblue;
-    font-family:Arial, Helvetica, sans-serif;
-    font-size: medium;
-    transition:300ms;
-    background-color: rgb(40, 172, 255);
-    border:2px solid white;
-    border-radius: 2px;
-    text-decoration: none;
-    padding: 10px 20px 10px 20px;
-    position: relative;
-    top: 25px;
+.cv {
+  width: 150px;
+  height: 40px;
+  color: #ffffff;
+  background-color: #00b3b3;
+  font-size: medium;
+  transition: 300ms;
+  border-radius: 10px;
+  text-decoration: none;
+  position: relative;
+  top: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.cv:hover{
-    cursor: pointer;
-    background-color:rgb(0, 157, 255);
-    color:rgb(255, 255, 255);
-    margin-top: 20px;
-    height: 45px;
-    width: 170px;
+.cv:hover {
+  cursor: pointer;
+  background-color:#009999;
 }
-.BiShow{
-    padding-right: 8px;
+.BiShow {
+  padding-right: 8px;
 }
-.intro{
-    font-size: medium;
+.intro {
+  font-size: large;
+  font-family: 'Rubik', sans-serif;
 }
-.linkedin-icon,.github-icon{
-    text-decoration: none;
-    color:white;
-    font-size: medium;
-    font-weight: 300;
-    margin-top: 50px; 
+.linkedin-icon,
+.github-icon {
+  text-decoration: none;
+  font-size: medium;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  color: black;
 }
-.linkedin-icon:hover{
-    cursor: pointer;
-    margin-top: 95px;
+.linkedin-icon:hover {
+  cursor: pointer;
 }
-.github-icon{
-    margin-left: 30px;
+.github-icon {
+  margin-left: 10px;
 }
-.SiLinkedin,.SiGithub{
-    color: #41c9ff;
-    padding-right: 5px;
-    font-size: x-large;
+.SiLinkedin,
+.SiGithub {
+  /* padding-right: 5px; */
+  font-size: x-large;
 }
-.icons{
-    margin-top: 100px;
-    transition: 500ms;
+.icons {
+  margin: 30px 0px 0px 5px;
+  width: 100px;
+  transition: 500ms;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  font-size: x-large;
 }
-.intro{
-    margin-bottom: 20px;
+.intro {
+  margin-bottom: 20px;
 }

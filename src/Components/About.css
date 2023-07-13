@@ -1,47 +1,68 @@
 .about-margin-item{
-    height: 16%;
-    margin: 100px;
-    padding: 50px;
+    height: auto;
+    padding: 150px 150px 0px 150px;
 }
-hr{
-    width: 12%;
-    margin-bottom: 45px;
-}
-hr.hr{
-    border: 1px solid gold;
-    border-radius: 5px;
+.hr2{
+    width: 30%;
+    margin: 0px;
 }
 .title{
-    text-align: center;
-    font-size:xx-large;
-    color: #41c9ff;
-    font-family: Poppins;
+    text-align:left;
+    font-size:50px;
+    line-height: 67px;
+    font-weight: 300;
 }
 .about-para{
-    text-align: center;
-    font-size: 20px;
+    text-align:center;
+    font-size: 15px;
     position: relative;
     top: 20px;
     word-spacing: 2px;
-    letter-spacing: 1px;
+    width: 400px;
+    /* height: auto; */
+    background-color: white;
+    padding: 40px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+.para-edu{
+    display: flex;
+    /* flex-direction:row; */
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 50px;
+    margin: 150px 0px;
+    align-items: center;
 }
 .about-lets{
-    font-family: Poppins,sans-serif;
-    font-size: 2.5rem;
-    font-weight: 700;
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+    font-weight: 100;
     overflow: hidden;
-    text-transform: uppercase;
+    text-transform:capitalize;
     display: flex;
-    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    gap: 15px;
+    margin: 0px;
 }
 .about-full{
-    font-size: 27px;
-    color: #41c9ff;
-    font-weight: 400;
+    font-size: 25px;
+    color: #000000;
+    font-weight: bold;
     position: relative;
     top: 20px;
     display: flex;
     justify-content: center;
+    padding: 0px 0px 40px 0px;
+    margin: 0px;
+    font-family: 'Rubik', sans-serif;
+    text-decoration: underline;
 }
 .AiOutlineForward{
     color: #41c9ff;  
@@ -98,4 +119,23 @@ hr.hr{
         text-align: center;
     }
 
+}
+.about-img{
+    width: 100px;
+    height: 100px;
+    /* border-top-left-radius: 50%;
+    border-top-right-radius: 50%; */
+    /* padding: 90px 30px 10px 30px; */
+    background-color: rgb(235, 235, 235);
+    padding: 10px 30px 10px 30px;
+    position: relative;
+    /* bottom: 50px; */
+    border: 2px solid black;
+}
+.education-details{
+    /* display: flex;
+    flex-direction: column;
+    justify-self: left; */
+    list-style-type: none;
+    text-align: left;
 }

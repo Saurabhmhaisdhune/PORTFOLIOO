@@ -1,6 +1,11 @@
 import React from "react";
 import "./Sidebar.css";
 import { Link } from "react-scroll";
+import {HiOutlineHome} from "react-icons/hi"
+import {GrProjects} from "react-icons/gr"
+import {FaLaptopCode} from "react-icons/fa"
+import {RiContactsLine} from "react-icons/ri"
+import {FaLink} from "react-icons/fa"
 
 function Sidebar(params) {
   return (
@@ -15,8 +20,8 @@ function Sidebar(params) {
               offset={-270}
               duration={500}
               className="li"
-            >
-              HOME
+            ><span><HiOutlineHome/></span>
+              <span>Home</span>
             </Link>
             <Link
               to="about"
@@ -25,8 +30,9 @@ function Sidebar(params) {
               offset={-100}
               duration={500}
               className="li"
-            >
-              ABOUT
+            ><span><GrProjects/></span>
+            <span>About</span>
+              
             </Link>
             <Link
               to="skills"
@@ -35,8 +41,9 @@ function Sidebar(params) {
               offset={-100}
               duration={500}
               className="li"
-            >
-              SKILLS
+            ><span><FaLaptopCode/></span>
+            <span> Skills</span>
+             
             </Link>
             <Link
               to="projects"
@@ -45,8 +52,8 @@ function Sidebar(params) {
               offset={-100}
               duration={500}
               className="li"
-            >
-              PROJECTS
+            ><span><FaLink/></span>
+              <span>Projects</span>
             </Link>
             <Link
               to="contact"
@@ -55,8 +62,9 @@ function Sidebar(params) {
               offset={-100}
               duration={500}
               className="li"
-            >
-              CONTACT
+            ><span><RiContactsLine/></span>
+            <span>Contacts</span>
+              
             </Link>
           </div>
         </div>

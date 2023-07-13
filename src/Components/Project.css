@@ -1,11 +1,14 @@
 .projects-margin-item {
   height: auto;
+  padding: 0px 150px;
 }
 .cards {
   width: 450px;
-  height: 350px;
-  margin-bottom: 160px;
+  height: auto;
+  /* margin-bottom: 100px; */
   transition: 900ms;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 @media (max-width: 1600px) {
   .cards {
@@ -33,19 +36,22 @@
   .project-flexx {
     display: flex;
     flex-direction: column;
-}
+  }
 }
 .project-flexx {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
-  margin: 120px;
+  padding: 120px 0px;
+  gap: 100px;
 }
 .project-dp {
-  width: 100%;
+  width: 450px;
+  height: 255px;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
+  object-fit: cover;
 }
 .project-flex-links {
   display: flex;
@@ -57,15 +63,14 @@
   display: flex;
   justify-content: center;
   font-size: x-large;
-  color:gold;
   transition: 300ms;
 }
 .project-links {
   text-decoration: none;
-  color: white;
-  background-color: rgb(48, 48, 48);
+  color: rgb(0, 0, 0);
   border-radius: 2px;
   padding: 5px;
+  background-color: rgb(226, 226, 226);
 }
 .project-info {
   display: flex;
@@ -79,24 +84,21 @@
   position: relative;
   top: -8px;
 }
-.project-tech1 {
-  color: #41c9ff;
-}
-.project-tech2 {
-  color: gold;
+.project-credentials-span {
+  font-weight: bold;
 }
 .project-all {
-  background-color: black;
-  padding: 10px;
+  background-color: rgb(255, 255, 255);
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
+  padding: 10px 0px;
 }
 .project-credentials {
-  text-align: center;
-}
-.project-credentials-span {
-  color: #41c9ff;
+  text-align: left;
 }
 .cards:hover {
   transform: scale(1.1);
+}
+.credentials {
+  font-weight: 500;
 }

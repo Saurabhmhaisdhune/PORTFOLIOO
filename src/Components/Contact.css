@@ -164,3 +164,9 @@ textarea{
 .contact-margin-item{
     padding: 50px 150px;
 }
+@media(max-Width:1350px){
+    .contact-flex{
+        justify-content: center;
+        gap: 200px;
+    }
+}

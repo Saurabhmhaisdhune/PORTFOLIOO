@@ -10,18 +10,23 @@
   box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
     rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
-@media (max-width: 1600px) {
+/* @media (max-width: 1600px) {
   .cards {
     width: 430px;
     height: 330px;
   }
+} */
+@media(max-Width:1260px){
+  .project-flexx{
+      justify-content: center !important;
+  }
 }
 @media (max-width: 600px) {
-  .cards {
+  /* .cards {
     width: 400px;
     height: 300px;
     margin-top: 10px;
-  }
+  } */
   .project-links {
     font-size: 12px;
   }

@@ -9,12 +9,12 @@
     height: auto;
   }
 }
-@media (max-width: 430px) {
+/* @media (max-width: 430px) {
   .skills-icons {
     width: 150px;
     height: 40px;
   }
-}
+} */
 /* @media (max-width: 600px) {
   
 } */

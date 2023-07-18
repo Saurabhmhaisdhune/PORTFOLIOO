@@ -45,7 +45,7 @@ function Projects() {
                 href="https://github.com/Saurabhmhaisdhune/Booking-App-FE"
                 className="project-links"
               >
-                Github FE <SiGithub />
+                <span>GitHub FE</span> <SiGithub />
               </a>
               <a
                 target="_blank"
@@ -53,7 +53,7 @@ function Projects() {
                 href="https://jazzy-rugelach-720fa8.netlify.app"
                 className="project-links"
               >
-                View site <FaExternalLinkAlt />
+                <span>View site</span> <FaExternalLinkAlt />
               </a>
               <a
                 target="_blank"
@@ -61,7 +61,7 @@ function Projects() {
                 href="https://github.com/Saurabhmhaisdhune/Booking-App-BE"
                 className="project-links"
               >
-                Github BE <SiGithub />
+                <span>GitHub BE</span> <SiGithub />
               </a>
             </div>
             <p className="project-info">
@@ -91,7 +91,7 @@ function Projects() {
                 href="https://github.com/Saurabhmhaisdhune/Chat-App-FE"
                 className="project-links"
               >
-                Github FE <SiGithub />
+                <span>GitHub FE</span> <SiGithub />
               </a>
               <a
                 target="_blank"
@@ -99,7 +99,7 @@ function Projects() {
                 href="https://beamish-moonbeam-3db5fe.netlify.app"
                 className="project-links"
               >
-                View site <FaExternalLinkAlt />
+                <span>View site</span> <FaExternalLinkAlt />
               </a>
               <a
                 target="_blank"
@@ -107,7 +107,7 @@ function Projects() {
                 href="https://github.com/Saurabhmhaisdhune/Chat-app-BE"
                 className="project-links"
               >
-                Github BE <SiGithub />
+                <span>GitHub BE</span> <SiGithub />
               </a>
             </label>
             <p className="project-info">
@@ -136,7 +136,7 @@ function Projects() {
                 href="https://github.com/Saurabhmhaisdhune/E-Commerce-FE"
                 className="project-links"
               >
-                Github FE <SiGithub />
+                <span>GitHub FE</span> <SiGithub />
               </a>
               <a
                 target="_blank"
@@ -144,7 +144,7 @@ function Projects() {
                 href="https://glowing-gumption-82f38f.netlify.app"
                 className="project-links"
               >
-                View site <FaExternalLinkAlt />
+                <span>View site</span> <FaExternalLinkAlt />
               </a>
               <a
                 target="_blank"
@@ -152,7 +152,7 @@ function Projects() {
                 href="https://github.com/Saurabhmhaisdhune/E-commerce-Backend"
                 className="project-links"
               >
-                Github BE <SiGithub />
+                <span>GitHub BE</span> <SiGithub />
               </a>
             </label>
             <p className="project-info">
@@ -185,7 +185,7 @@ function Projects() {
                 href="https://github.com/Saurabhmhaisdhune/Gmail_clone"
                 className="project-links"
               >
-                Github FE <SiGithub />
+                <span>GitHub FE</span> <SiGithub />
               </a>
               <a
                 target="_blank"
@@ -193,7 +193,7 @@ function Projects() {
                 href="https://incandescent-tiramisu-9886d5.netlify.app"
                 className="project-links"
               >
-                View site <FaExternalLinkAlt />
+                <span>View site</span> <FaExternalLinkAlt />
               </a>
               <a
                 target="_blank"
@@ -201,7 +201,7 @@ function Projects() {
                 href="https://github.com/Saurabhmhaisdhune/Gmail-clone-database"
                 className="project-links"
               >
-                Github BE <SiGithub />
+                <span>GitHub BE</span> <SiGithub />
               </a>
             </label>
             <p className="project-info">
@@ -227,7 +227,7 @@ function Projects() {
                 href="https://github.com/Saurabhmhaisdhune/Gmail_clone"
                 className="project-links"
               >
-                Github FE <SiGithub />
+                <span>GitHub FE</span> <SiGithub />
               </a>
               <a
                 target="_blank"
@@ -235,7 +235,7 @@ function Projects() {
                 href="https://incandescent-tiramisu-9886d5.netlify.app"
                 className="project-links"
               >
-                View site <FaExternalLinkAlt />
+                <span>View site</span> <FaExternalLinkAlt />
               </a>
               <a
                 target="_blank"
@@ -243,7 +243,7 @@ function Projects() {
                 href="https://github.com/Saurabhmhaisdhune/Gmail-clone-database"
                 className="project-links"
               >
-                Github BE <SiGithub />
+                <span>GitHub BE</span> <SiGithub />
               </a>
             </label>
             <p className="project-info">
@@ -269,7 +269,7 @@ function Projects() {
                 href="https://github.com/Saurabhmhaisdhune/Gmail_clone"
                 className="project-links"
               >
-                Github FE <SiGithub />
+                <span>GitHub FE</span> <SiGithub />
               </a>
               <a
                 target="_blank"
@@ -277,7 +277,7 @@ function Projects() {
                 href="https://incandescent-tiramisu-9886d5.netlify.app"
                 className="project-links"
               >
-                View site <FaExternalLinkAlt />
+                <span>View site</span> <FaExternalLinkAlt />
               </a>
               <a
                 target="_blank"
@@ -285,7 +285,7 @@ function Projects() {
                 href="https://github.com/Saurabhmhaisdhune/Gmail-clone-database"
                 className="project-links"
               >
-                Github BE <SiGithub />
+                <span>GitHub BE</span> <SiGithub />
               </a>
             </label>
             <p className="project-info">

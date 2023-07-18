@@ -63,7 +63,14 @@
   color: rgb(0, 0, 0);
   border-radius: 2px;
   padding: 5px;
-  background-color: rgb(226, 226, 226);
+  background-color: rgb(238, 238, 238);
+  padding: 5px 0px;
+  display: flex;
+  align-items: stretch;
+  width: 120px;
+  gap:5px;
+  justify-content: center;
+  border: 1px solid rgb(211, 211, 211);
 }
 .project-info {
   display: flex;

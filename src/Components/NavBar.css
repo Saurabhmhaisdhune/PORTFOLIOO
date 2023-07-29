@@ -93,8 +93,9 @@
   font-size: 18px;
   text-align: center;
   font-weight:500;
-  border-bottom: 1px solid rgba(0, 137, 121, 0.923);
+  /* border-bottom: 1px solid rgba(0, 137, 121, 0.923); */
   transition: 100ms;
+  text-decoration: underline;
 }
 .menu-link-12 {
   padding-right: 5rem;

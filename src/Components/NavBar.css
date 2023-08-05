@@ -23,13 +23,13 @@
 .name {
   font-size: 20px;
   padding-left: 4rem;
-  font-family: 'Fasthand';
   display: flex;
   align-items:center ;
   gap: 5px;
 }
-.Saurabh-M{
-  font-family: 'Fasthand';
+.saurabh-m{
+  font-size: larger;
+  font-weight: 400;
 }
 .logo{
   h2{

@@ -20,7 +20,7 @@ function NavBar(params) {
       <div className="logo">
         <div className="name">
           <img src={weblogo} className="web-logo" alt="pro"/>
-          <span className="saurabh-m">Saurabh.M</span>
+          <span className="saurabh-m">Developer's</span>
         </div>
       </div>
       <div className="menu-link-12">

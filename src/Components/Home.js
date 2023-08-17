@@ -48,7 +48,7 @@ function Home() {
             <a
               target="_blank"
               rel="noreferrer"
-              href="https://drive.google.com/file/d/1als_R8ixUJ1lGzsifsJ2p_YdynjiMmDs/view?usp=sharing"
+              href="https://drive.google.com/file/d/1Qd4FFxHCxtAnc-CNbMlztwTkRPOr2G6b/view?usp=sharing"
               className="cv"
             >
               <FaGraduationCap className="BiShow" />

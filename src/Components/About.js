@@ -28,11 +28,6 @@ function About() {
             where I worked on extensive programming and real-world projects.
             During this program, I discovered MERN Stack and built several
             websites using this technology. 
-            {/* My ultimate goal is to become the
-            best possible web developer, continuously learning from more
-            experienced developers, remaining humble, and striving to improve my
-            skills. Additionally, my strong problem-solving and problem
-            identification skills contribute to my success as a developer. */}
           </p>
         </div>
         <div className="about-para">
